@@ -1,0 +1,36 @@
+.recommendations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    width: 700px;
+}
+
+.rec-1, .rec-2, .rec-3, .rec-4{
+    width: 160px;
+    height: 100px;
+}
+
+.r-1:hover, .r-2:hover, .r-3:hover, .r-4:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.r-1, .r-2, .r-3, .r-4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 20px;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(155, 155, 155);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+    line-height: 27px;
+    transition: background-color 0.3s;
+}
